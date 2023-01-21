@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="icon" type="image/png" href="github-mark.png">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+   <header>
+     <div class="logo">
+      
+     <h1><img src="github-mark-white.png" alt="github image" width="20px" height="20px" style="margin: 0px 10px;">Github Finder</h1>
+    </div>
+    <div class="list">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </div>
+   </header>
+
+   <div class="container">
+    <div class="subcontainer">
+   <h3>Let's stalk someone on Github</h3>
+   <button id="clearButton" >CLEAR</button>
+     </div>
+
+    <div class="searchbar">
+   <input type="text" name="search" id="searchPerson">
+    <button id="goButton" onclick="func()">Go</button>
+
+    <div class="profilecontainer" id="profileContainer"> 
+    </div>
+
+   </div>
+   </div>
+
+ 
+
+</body>
+</html>
